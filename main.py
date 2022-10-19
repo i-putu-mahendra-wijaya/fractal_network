@@ -4,10 +4,10 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # generate fractal network
-NetworkGenerator.graph(lvls=2, n=10)
+NetworkGenerator.graph(lvls=3, n=4)
 
 # Network data path
-network_filepath = "10-2.dat"
+network_filepath = "4-3.dat"
 
 with open(file=network_filepath) as network_dat_file:
     network_data = network_dat_file.read()
